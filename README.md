@@ -1,0 +1,1 @@
+This is a personal website made for CS50 and as a terra project using bootstrap and JS. This was my first time using both bootstrap and JS so it might not be the best. You can visit the website at: https://proffd-17.github.io/personal-website/
