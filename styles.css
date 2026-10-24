@@ -1,0 +1,144 @@
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Links */
+.link2page {
+    text-decoration: none;
+    color: #2C85DE;
+}
+
+.link-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.link-container:hover {
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Header */
+header {
+    margin-bottom: 0;
+}
+
+header p {
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+header .bg-responsive {
+    width: 60%;
+    margin: 20px auto 0px auto;
+}
+
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.nav-item {
+    display: inline-block;
+    width: auto;
+    background-color: #f2f2f2;
+    padding: 2px;
+    margin: 2px 5px;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background-color: #e0e0e0;
+}
+
+.navlink {
+    text-decoration: none;
+}
+
+
+/* Main content */
+main {
+    padding: 20px;
+    margin-top: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg-responsive {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+    padding: 5px;
+}
+
+
+/* Images and gallery */
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.puppy-gallery img {
+    width: auto;
+    height: 90%;
+    border-radius: 5%;
+}
+
+.img-circle {
+    border-radius: 50% !important;
+}
+
+
+/* Theme: start with day */
+#sky {
+    background-image: url("images/sky.jpg"); 
+}
+
+#forrest {
+    background-image: url("images/forrest_day.jpg");
+}
+
+#ground {
+    background-image: url("images/ground.jpg");
+}
+
+#change-theme {
+    font-size: 21px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#change-theme:hover {
+    background-color: #e0e0e0;
+}
+
+
+/* Footer */
+footer {
+    padding: 20px;
+}
+
+footer .light-bg {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+    margin: 20px auto;
+    width: 50%;
+    padding: 5px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script defer src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script defer src="day-night.js"></script>
+    </head>
+    <body>
+        <header id="sky">
+            <nav class="navbar navbar-expand-lg bg-responsive w-100">
+                <div id="nav-bar" class="container-fluid">
+                    <h2 id="navbar-brand" class="navbar-brand">Personal Website</h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faith.html">Faith</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="study.html">Study</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sport.html">Sports</a>
+                        </li>
+                        <li>
+                            <button id="change-theme" class="btn">☼</button>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg-responsive container">
+                <h1 class="text-center">CS50 Homepage</h1>
+                <p class="text-center">Welcome to my website. Learn more about me here.</p>
+            </div>
+            
+        </header>
+        <main id="forrest">
+            <section class="bg-responsive">
+                <h2 class="text-center">Pages</h2>
+                <nav class="container justify-content-center p-3">
+                    <div class="row gap-3">
+                        <div class="col link-container">
+                            <a class="link2page" href="faith.html">✝️ Resources to improve your faith</a>
+                        </div>
+                        <div class="col link-container">
+                            <a class="link2page" href="projects.html">⚙️ Projects I Have Worked On</a>
+                        </div>
+                        <div class="col link-container">
+                            <a class="link2page" href="study.html">📖 Resources for Studying and Learning</a>
+                        </div>
+                        <div class="col link-container">
+                            <a class="link2page" href="sport.html">⚽ Sports I Play</a>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <section class="bg-responsive">
+                <h2 class="text-center">Space ToLet</h2>
+                <p class="text-center">Might put something here later but for now have some cute puppies!</p>
+                <div class="container puppy-gallery">
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/puppy1.jpg" alt="Blonde chawawa with a blured background." class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <img src="images/puppy2.jpg" alt="Black and white puppy lying down on grass." class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <img src="images/puppy3.jpg" alt="Brown puppy sitting in a muddy field." class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <img src="images/puppy4.jpg" alt="Black puppy with a white chest and paws up on the camera." class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="center" id="ground">
+            <div class="container bg-responsive">
+                <h2>Get in touch</h2>
+                <p>I don't use these accounts but sometimes in the past I have.</p>
+                <nav>
+                    <ul type="none">
+                        <li>Email me at: <a href="mailto:ixldom@icloud.com">ixldom@icloud.com</a></li>
+                        <li>
+                            <a href="https://x.com/Do12274Dominic" target="_blank">X (Twitter)</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=61560852939888" target="_blank">Facebook</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
